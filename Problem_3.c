@@ -7,8 +7,14 @@ int main() {
     scanf("%d", &number);
 
     // Write your code here
-    
-    
+    if(number%2 == 0)
+    {
+      printf("%d is even",number);
+    }
+    else
+    {
+      printf("%d is odd",number);
+    }
    
     return 0;
 }

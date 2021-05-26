@@ -5,12 +5,18 @@
 
 int main()
 {
-  	int n;
+  	int n , p , q;
 
   	scanf("%d", &n);
 
   	//Write your code here
-  	
-
-  	return 0;
+  	for(p=1;p<=n;p++)
+    {
+      for(q=1;q<=p;q++)
+      {
+      printf("$ ");
+      }
+       printf("\n");
+    }
+    return 0;
 }
